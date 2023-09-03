@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>El miniBar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .btn-crema {
+      background-color: #ee8719;
+      color: #fbfbec;
+      font-size: 20px;
+      padding: 15px 30px;
+      }
+      .btn-crema:hover {
+        background-color: #bc8f54;
+        color: #fbfbec;
+      }
+      body {
+        text-align: center;
+        background-color: #feffef;
+      }
+      
+      #logo {
+        margin-top: 100px;
+      }
+      
+      #buttons-container {
+        margin-top: 50px;
+      }
+      
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 18px;
+        text-decoration: none;
+        background-color: #ee8719;
+        color: #fbfbec;
+        border-radius: 5px;
+      }
+      
+      .btn:hover {
+        background-color: #bc8f54;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="logo" src="https://ipfs.io/ipfs/bafkreiej2pball4nqo3gpxnv6py77cm4fzaxd4q2rllhyh5ly64mqn735a" alt="Logo del restaurante">
+    
+    <div id="buttons-container" style="font-family:barfont">
+      <a class="btn btn-crema btn-idempresa"  href="empresa.html">Identificarse como empresa</a>
+      <a class="btn btn-crema btn-idcliente" href="cliente.html">Identificarse como cliente</a>
+    </div>        
+      
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

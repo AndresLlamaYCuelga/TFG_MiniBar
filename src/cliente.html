@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>El miniBAR</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     
+      .btn-crema {
+      background-color: #ee8719;
+      color: #fbfbec;
+      font-size: 20px;
+      padding: 15px 30px;
+      }
+      .btn-crema:hover {
+        background-color: #bc8f54;
+        color: #fbfbec;
+      }
+      .button-group {
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      body {
+        background-color: #feffef;
+      }
+      h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      .boton-esquina {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #462901;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .boton-esquina:hover {
+      background-color: #000000;
+      color: #fbfbec;
+      border-color: #000000;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" style="font-weight:bold; font-family:barfont"><span style="color:black; font-size: 1.2em;">E</span><span style="color:black; font-size: 1em;">l </span><span style="color:#b45f04; font-size: 1em;">mini</span><span style="color:black; font-size: 1.2em;">BAR</span>
+          <br/></h1>
+          <div class="text-center">
+            <div class="button-group">
+              <a href="venta.html" class="btn btn-lg btn-crema btn-venta" data-id="1">Tienda</a>
+            </div>
+            <div class="button-group">
+                <a href="perfil.html" class="btn btn-lg btn-crema btn-perfil" data-id="2">Mis menús</a>
+            </div>
+            <div class="button-group">
+                <a class="btn btn-lg btn-crema btn-empresa" data-id="3" data-toggle="collapse" href="#collapseEmpresa" aria-expanded="false" aria-controls="collapseEmpresa">Sobre nosotros</a>
+            </div>
+            <div class="collapse" id="collapseEmpresa">
+                <div class="panel">
+                    <p>Somos especializados en servicios de restauración y catering. Desde hace más de 30 años ofrece soluciones a medida en la gestión integral de comedores para colegios, institutos y universidades.</p>
+                    <p>Dirección:</p>
+                    <p>Calle del Mesón de Paños, 1, 28013 Madrid</p>
+                    <p>Horario de atención:</p>
+                    <p>Domingo a viernes de 10:00 a 19:00h</p>
+                    <p>Numero de contacto:</p>
+                    <p>+34 658 971 260</p>
+                    <p>+34 654 369 849</p>
+                    <p>Síguenos:</p>
+                    <div class="button-group text-center" style="background-color: #ffd4a7; border: none;">
+                      <a href="https://www.facebook.com/ElminiBAR" class="btn btn-lg btn-primary" style="background-color: #ffd4a7">
+                        <img src="https://ipfs.io/ipfs/bafkreidxumgct3y7slrzz7jfyhu7v627wlnoasivjscjmzrx2axn42bsiq" alt="Facebook" style="width: 50px; height: 50px;">
+                      </a>
+                      <a href="https://www.instagram.com/barelminibar/?hl=es" class="btn btn-lg btn-primary">
+                        <img src="https://ipfs.io/ipfs/bafkreie65rwpsknuukr5kuor6xducks7sggpzhxshidwioc7ermiezh6ua" alt="Instagram" style="width: 50px; height: 50px;">
+                      </a>
+                      <a href="https://www.tripadvisor.es/Restaurant_Review-g187514-d3688138-Reviews-El_miniBAR-Madrid.html?m=19905" class="btn btn-lg btn-primary">
+                        <img src="https://ipfs.io/ipfs/bafkreiarihnm5qjvmeyqy5dnnpytrzfjioh5qg2f6tjsd6usydowrosjw4" alt="TripAdvisor" style="width: 50px; height: 50px;">
+                      </a>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+          </div>
+          
+        
+    </div>
+    
+    <a href="index.html" id="cerrarSesionBtn" class="boton-esquina"  style="font-weight:bold; font-family:barfont">Cerrar sesión</a>
+
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

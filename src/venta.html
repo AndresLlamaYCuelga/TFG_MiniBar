@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>El miniBAR</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .btn-crema {
+        background-color: #ee8719;
+        color: #fbfbec;
+        font-size: 20px;
+        padding: 15px 30px;
+      }
+      .btn-crema:hover {
+        background-color: #bc8f54;
+        color: #fbfbec; 
+      }
+      .button-group {
+        margin-top: 50px;
+        margin-bottom: 80px;
+      }
+      .my-custom-cantity{
+        font-size: 25px;
+      }
+      body {
+        background-color: #feffef;
+      }
+      h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+  </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center" style="font-weight:bold; font-family:barfont"> <span style="color:black; font-size: 1.2em;">L</span><span style="color:black; font-size: 1em;">a </span><span style="color:#b45f04; font-size: 1em;">mini</span><span style="color:black; font-size: 1.2em;">TIENDA</span>
+          <br/>
+          <div class="button-group text-center">
+            <a href="cliente.html" class="btn btn-lg btn-crema">Inicio</a>
+            <a href="perfil.html" class="btn btn-lg btn-crema">Mis menús</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="menusRow" class="row">
+        <!-- MENUS LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="menuTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-6 col-lg-6 menu-container">
+        <div class="panel panel-default panel-menu" style="font-family:barfont">
+          <div class="panel-heading">
+            <h2> <strong class="panel-combination" style="color:#b45f04;">Combinado</strong><strong style="color:#b45f04;">: </strong><span class="panel-title" style="color:#feffef;">Scrappy</span></br></h2>
+            <span id="quedan-menus-0" class="my-custom-cantity" style="color:#feffef;"></span>
+          </div>
+          <div class="panel-body">
+            <img alt="Imagen no diponible por ser demasiado sabrosa" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%; margin-bottom: 20px;" src="https://ipfs.io/ipfs/bafybeic2pkttfpyfokup242wgfc5nmcssy4lvrxfzu4pob6nbpnynrnanu" data-holder-rendered="true">
+            <div id="descripcion" class="description-container" style="margin-bottom: 10px; ">
+              <h3>
+                <strong style="color:#b45f04;">Descripción: </strong><span class="menu-description my-custom-span" style="color:#feffef">Clásico: filetes de lomo de cerdo, con patatas fritas, huevo frito y pimientos verdes, más bebida y pan</span><br/>
+              </h3>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-xs-3 col-md-3">
+                <button class="btn btn-default btn-md btn-comprar" type="button" data-id="1" style="margin-bottom: 10px; color:#b45f04;">Comprar</button>
+              </div>
+              <div class="col-xs-9 col-md-9">
+                <form class="form-group">
+                  <div class="form-group" style="margin-bottom: 10px;">
+                    <input style="color:#b45f04; height: 35px;" data-id="1" type="number" class="form-control" id="cantidad" min="1" max="10" value="1">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

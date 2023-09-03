@@ -1,0 +1,47 @@
+[
+  { 
+
+    "name": "Combinado Número 1: Clásico",
+
+    "description": " Filetes de lomo de cerdo, con patatas, huevo frito y pimientos verdes, más bebida y pan",
+
+    "image": "https://ipfs.io/ipfs/bafybeic2pkttfpyfokup242wgfc5nmcssy4lvrxfzu4pob6nbpnynrnanu"
+
+  },
+  { 
+
+    "name": "Combinado Número 2: El rey",
+
+    "description": " Filete fresco de emperador con patatas, ensalada mixta y ensaladila rusa, más bebida y pan",
+
+    "image": "https://ipfs.io/ipfs/bafybeia6gkv5cf6pdagjkpzf73izbc6dpfyd4jpxh2lzqxqqssypkshwnq"
+
+  },
+  { 
+
+    "name": "Combinado Número 3: Hamburguesa deconstruida",
+
+    "description": " Hamburguesa de guayu (400g) alimentado a base de jamón ibérico y queso García Vaquero, habitación propia con colchón Lomonaco y finca de 13 hectáreas para que no se agobie, con patatas y huevos fritos, más bebida y pan",
+
+    "image": "https://ipfs.io/ipfs/bafybeigg6ifdi7pxmqnuosqvxxggdteinrjjr56ovkdh3qmyuwh3tbopqe"
+
+  },
+  { 
+
+    "name": "Combinado Número 4: Del monte",
+
+    "description": " Entrecot de venado con cachelos y revuelto de espárragos silvestres, más bebida y pan",
+
+    "image": "https://ipfs.io/ipfs/bafybeib4psgv4wxjnqhhmk7g2vrzmfstgj7sizyxs4n7tq2o466nksayyi"
+
+  },
+  { 
+
+    "name": "Combinado Número 5: Del mar",
+
+    "description": " Cigalitas frescas de conservatorio y chipirones en rodajas con patatas y huevo frito, más bebida y pan",
+
+    "image": "https://ipfs.io/ipfs/bafybeiadx5dup2fwlab2u5cpchclkjqn7jbu6x4pqk5ycydq7axxp6agwa"
+
+  }
+]
