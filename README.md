@@ -21,3 +21,8 @@ Necesaria intalación de :
   - Símbolo de moneda : *ETH*
   - Dirección URL del explorador de bloques (Opcional)
 - Importar cuentas a MetaMask con la private key que da Ganache
+
+Con Ganache abierto, abrir la terminal de CLI o VisualStudio o la que desee. Una vez abierta hay que situarse en la carpeta del proyecto. Usando por ejemplo el comando *cd* . Una vez en el directorio del proyecto ejecutar : 
+
+- *truffle migrate*
+- *npm run dev*
